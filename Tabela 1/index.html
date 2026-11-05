@@ -1,1 +1,80 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 1</title>
+
+    <style>
+        /* Estilo da tabela */
+        .table1 {
+            border: 1px solid darkgreen;
+            border-collapse: collapse;
+            background-color: lightgreen;
+            text-align: center;
+        }
+
+        /* Bordas e espaçamento */
+        th, td {
+            border: 1px solid darkgreen;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Cabeçalhos */
+        th {
+            background-color: seagreen;
+            color: white;
+        }
+
+        /* Células */
+        td {
+            background-color: lightgreen;
+            color: darkgreen;
+        }
+
+        /* Título */
+        caption {
+            color: darkgreen;
+            font-size: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Tabela de trajetória acadêmica -->
+    <table class="table1">
+        <caption>Trajetória Acadêmica e Profissional</caption>
+
+        <tr>
+            <th rowspan="2">Estudante</th>
+            <th colspan="2">Formação</th>
+            <th rowspan="2">Ano de Conclusão</th>
+        </tr>
+
+        <tr>
+            <th>Graduação</th>
+            <th>Pós-graduação</th>
+        </tr>
+
+        <tr>
+            <th>José</th>
+            <td>Ciência da Computação</td>
+            <td>Inteligência Artificial</td>
+            <td>2023</td>
+        </tr>
+
+        <tr>
+            <th>Ana</th>
+            <td>Engenharia de Software</td>
+            <td>Gestão de Projetos</td>
+            <td>2023</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
