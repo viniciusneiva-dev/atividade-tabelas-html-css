@@ -1,0 +1,50 @@
+
+/* Estilo da página */
+body {
+    background-color: #eef2f7;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Título */
+h1 {
+    color: #c45b20;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+/* Título da tabela */
+caption {
+    color: #333333;
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* Células */
+td {
+    border: 1px solid #999999;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: #333333;
+}
+
+/* Linhas alternadas */
+tr:nth-child(even) {
+    background-color: #dcebf5;
+}
+
+/* Cabeçalho e períodos */
+.destaque {
+    background-color: #e66a24;
+    color: white;
+    font-weight: bold;
+}
